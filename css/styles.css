@@ -39,6 +39,9 @@ a: visited {
     text-decoration: underline;
 }
 
+footer {
+    margin: 15px ;
+}
 
 p {
     text-align: left;
