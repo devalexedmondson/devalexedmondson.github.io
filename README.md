@@ -1,6 +1,4 @@
 # devalexedmondson.github.io
 First website
 
-css {
-  used from startbootstrap.com/ modernbusiness theme
-}
+Content page themes used from startup.com/ modernbusiness. 
