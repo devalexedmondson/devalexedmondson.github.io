@@ -1,5 +1,5 @@
-html, body{
-    height: 100%;
+html {
+    background: black;
 }
 
 body {
@@ -9,7 +9,6 @@ body {
     padding: 2%;
     margin: 2%;
     font-family: caslon, plantin, sabon, "hoefler text";
-    padding-top: 50px;  /*added from startbootstrap.com*/
 }
 
 h1 {
@@ -83,38 +82,3 @@ p {
 }
 
 
-
-/*Added from startbootstrap.com*/
-header.carousel {
-    height: 50%;
-}
-
-header.carousel .item,
-header.carousel .item.active,
-header.carousel .carousel-inner {
-    height: 100%;
-}
-
-header.carousel .fill {
-    width: 100%;
-    height: 100%;
-    background-position: center;
-    background-size: cover;
-}
-
-@media(max-width:991px) {
-    .customer-img,
-    .img-related {
-        margin-bottom: 30px;
-    }
-}
-
-@media(max-width:767px) {
-    .img-portfolio {
-        margin-bottom: 15px;
-    }
-
-    header.carousel .carousel {
-        height: 70%;
-    }
-}
