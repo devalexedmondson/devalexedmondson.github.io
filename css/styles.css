@@ -1,13 +1,10 @@
 html {
-    background: black;
+     background-image: url("../images/background.jpg") ;
+    background-size: cover;
 }
 
 body {
-    background-image: url("../images/background.jpg") ;
-    background-size: cover;
     color: black;
-    padding: 2%;
-    margin: 2%;
     font-family: caslon, plantin, sabon, "hoefler text";
 }
 
