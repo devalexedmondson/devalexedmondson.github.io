@@ -68,6 +68,11 @@ p {
     width: 100%
 }
 
+.smalltitle {
+    color: #A9A9A9;
+    font-size: 15px
+}
+
 .photoBorder {
     border:1px;
     border-style: solid;
@@ -84,6 +89,7 @@ p {
 #pagecontent {
     margin-top: 50px;
 }
+
 
 
 
