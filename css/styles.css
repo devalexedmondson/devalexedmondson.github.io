@@ -6,6 +6,7 @@ body {
     background-image: url("../images/background.jpg") ;
     background-size: cover;
     color: black;
+    padding-top: 50px;
     padding: 2%;
     margin: 2%;
     font-family: caslon, plantin, sabon, "hoefler text";
