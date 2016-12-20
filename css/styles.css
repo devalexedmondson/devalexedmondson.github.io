@@ -68,9 +68,12 @@ p {
     width: 100%
 }
 
-.smalltitle {
-    color: #A9A9A9;
-    font-size: 15px
+.forceright {
+    text-align: right;
+}
+
+.forceleft {
+    text-align: left;
 }
 
 .photoBorder {
@@ -78,6 +81,11 @@ p {
     border-style: solid;
     color: black;
     background-color: white;
+}
+
+.smalltitle {
+    color: #A9A9A9;
+    font-size: 15px
 }
 
 #banner {
