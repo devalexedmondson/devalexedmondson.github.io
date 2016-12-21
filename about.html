@@ -14,7 +14,12 @@
         <link href="css/bootstrap-theme.min.css" rel="stylesheet">
         <link href="css/styles.css" rel="stylesheet">
 
+        <script language="Javascript" type="text/javascript">
+            dayName = new Array ("Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday")
+            monName = new Array ("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December")
 
+            now = new Date
+        </script>
         <!--[if lt IE 9]>
 <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
 <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -43,149 +48,154 @@
                                 <li class="active"><a href="about.html" title="About">About</a></li>
                                 <li><a href="journey.html" title="transformation">Journey</a></li>
                                 <li><a href="contact.html" title="Contact Page">Contact</a></li>
+                                <li><script language="Javascript" type="text/javascript">
+
+
+                                    document.write("<h3> " + dayName[now.getDay()] + ", " + monName[now.getMonth()] + " " + now.getDate() + ".<\/h3>")
+                                </script></li>
                             </ul>
-                        </div>
+                    </div>
                     </div>
                 </nav>
 
+        </div>
+        </div>
+
+
+    <div class="container">
+
+        <div class="jumbotron">
+            <div class="container">
+                <h1>About: Alex Edmondson</h1>
+                <h2>A look into my past and my hobbies</h2>
             </div>
         </div>
 
 
-        <div class="container">
 
-            <div class="jumbotron">
-                <div class="container">
-                    <h1>About: Alex Edmondson</h1>
-                    <h2>A look into my past and my hobbies</h2>
+        <div class="row">
+            <div>
+                <h2 class="page-header">History</h2>
+            </div>
+            <div class="col-md-4 text-center">
+                <div class="thumbnail">
+                    <img class="img-responsive" src="images/family1.jpg" alt="">
+                    <h3>Family<br>
+                    </h3>
+                    <p>My immediate family is fairly small. I grew up with my Mom, Dad, and one brother. My mom grew up in Grand Rapids, MI and eventually moved to Hinkley Big Rock, IL where she met my Dad. They started dating in high school and have been together ever since then. I have one brother that is 16 months younger than I am.</p>
                 </div>
             </div>
+            <div class="col-md-4 text-center">
+                <div class="thumbnail">
+                    <img class="img-responsive" src="images/benedictinelogo.jpg" alt="Benedictine University's logo">
 
-
-
-            <div class="row">
-                <div>
-                    <h2 class="page-header">History</h2>
+                    <h3>Education<br>
+                    </h3>
+                    <p>I was lucky growing up to have most of the schools that I went to be so close to home. My elementary school, middle school, and high school were all within walking distance from me which made the commute great. I attended Waubonsie Valley High School and played basketball all four years. For college I decided to stay close to home and attend Benedictine University where I finished with a degree in Communications and also played varsity basketball all four years.</p>
                 </div>
-                <div class="col-md-4 text-center">
-                    <div class="thumbnail">
-                        <img class="img-responsive" src="images/family1.jpg" alt="">
-                        <h3>Family<br>
+            </div>
+            <div class="col-md-4 text-center">
+                <div class="thumbnail">
+                    <img class="img-responsive" src="images/basketball.jpg" alt="Alex Edmondson shooting a basketball">
+                    <div class="caption">
+                        <h3>Sports<br>
                         </h3>
-                        <p>My immediate family is fairly small. I grew up with my Mom, Dad, and one brother. My mom grew up in Grand Rapids, MI and eventually moved to Hinkley Big Rock, IL where she met my Dad. They started dating in high school and have been together ever since then. I have one brother that is 16 months younger than I am.</p>
-                    </div>
-                </div>
-                <div class="col-md-4 text-center">
-                    <div class="thumbnail">
-                        <img class="img-responsive" src="images/benedictinelogo.jpg" alt="Benedictine University's logo">
-
-                        <h3>Education<br>
-                        </h3>
-                        <p>I was lucky growing up to have most of the schools that I went to be so close to home. My elementary school, middle school, and high school were all within walking distance from me which made the commute great. I attended Waubonsie Valley High School and played basketball all four years. For college I decided to stay close to home and attend Benedictine University where I finished with a degree in Communications and also played varsity basketball all four years.</p>
-                    </div>
-                </div>
-                <div class="col-md-4 text-center">
-                    <div class="thumbnail">
-                        <img class="img-responsive" src="images/basketball.jpg" alt="Alex Edmondson shooting a basketball">
-                        <div class="caption">
-                            <h3>Sports<br>
-                            </h3>
-                            <p>I've been playing sports all my life but have always loved to play basketball. I started playing when I was six years old and was really trying to follow in my Dad's footsteps. My Dad played college basketball at Northern Illinois University and recieved a full athletic scholorship to play there. Although I did not recieve a scholorship, I decided to play basketball in college at Benedictine University. While at Benedictine University I played varsity basketball all four years.</p>
-                        </div>
+                        <p>I've been playing sports all my life but have always loved to play basketball. I started playing when I was six years old and was really trying to follow in my Dad's footsteps. My Dad played college basketball at Northern Illinois University and recieved a full athletic scholorship to play there. Although I did not recieve a scholarship, I decided to play basketball in college at Benedictine University. While at Benedictine University I played varsity basketball all four years.</p>
                     </div>
                 </div>
             </div>
+        </div>
 
 
 
-            <div class="row">
+        <div class="row">
 
-                <div class="col-md-4 text-center">
-                </div>
-
-                <div class="col-md-4 text-center">
-                    <div class="thumbnail">
-
-                        <h3>Work Life<br>
-                        </h3>
-                        <p>After graduating from Benedictine University I decided to take a job for a local start-up company called, M14 Hoops Academy. I stayed at this job for a year and half before moving to Milwaukee and starting my career in sales. I started at a small company called Solvy7 and later moved to TEKsystems to become a recruiter. Most recently I left TEKsystems to pursue a career in Software Devlopment by attending devCodeCamp.</p>  
-                    </div>
-                </div>
-
-                <div class="col-md-4 text-center">
-                </div>
-
-
+            <div class="col-md-4 text-center">
             </div>
 
+            <div class="col-md-4 text-center">
+                <div class="thumbnail">
 
-
-            <div class="row">
-                <div class="col-md-4 text-center">
-                    <div class="thumbnail">
-                        <h3>M14<br></h3>
-                            <p class="smalltitle text-center">Basketball Instructor</p>
-                        
-                        <p>For a year and a half I worked as a basketball trainer at a company called M14. While here I was responsible for over seeing basketball training sessions as well as assisting in administrative and bussiness aspects of the M14 Hoops Academy.</p>
-                    </div>
-                </div>
-                <div class="col-md-4 text-center">
-                    <div class="thumbnail">
-                        <h3>Solvy7<br></h3>
-                            <p class="smalltitle text-center">Sr. Account Executive</p>
-                        
-                        <p> My career at Solvy7 was my first sales experience. I was trained in the psychology of sales in a competitive retail market and was able to effectively give presentations and complete successful sales for DirecTV. While working I was also responsible for conducting second round interviews as well as training new employees.</p>
-                    </div>
-                </div>
-                <div class="col-md-4 text-center">
-                    <div class="thumbnail">
-                        <h3>TEKsystems<br></h3>
-                            <p class="smalltitle text-center">Application Development Recruiter</p>
-                        <p> As an Application Development Recruiter at TEKsystems, I was responsible for building consultant relationships, understanding the local employment market in the Milwaukee area and consulting with technical candidates to help them advance their long-term careers.</p>
-                    </div>
+                    <h3>Work Life<br>
+                    </h3>
+                    <p>After graduating from Benedictine University I decided to take a job for a local start-up company called, M14 Hoops Academy. I stayed at this job for a year and half before moving to Milwaukee and starting my career in sales. I started at a small company called Solvy7 and later moved to TEKsystems to become a recruiter. Most recently I left TEKsystems to pursue a career in Software Devlopment by attending devCodeCamp.</p>  
                 </div>
             </div>
 
-
-
-
-            <div class="row">
-                <div class="col-lg-12">
-                    <h2 class="page-header">Hobbies</h2>
-                </div>
+            <div class="col-md-4 text-center">
             </div>
 
-            <div class="row">
-                <div class="col-md-6 col-lg-6">
-                    <h4>Basketball</h4>
-                    <p>I've been playing sports all my life but have always loved to play basketball. I started playing when I was six years old and was really trying to follow in my Dad's footsteps. My Dad played college basketball at Northern Illinois University and recieved a full athletic scholorship to play there. Although I did not recieve a scholorship, I decided to play basketball in college at Benedictine University.</p>
 
-                    <p>These days I still play basketball every chance I can. Whether thats at the park, in an open gym, or in a league, I love to get out on the court and get a good run in.</p>
+        </div>
 
-                    <h4>Video Games</h4>
-                    <p>If i'm not playing basketball then you can find me sitting close to the TV playing video games. Ever since a child when my Dad let me play his Sega I have loved playing video games. These days I play on a Playstation and play every type of game besides sports games. My favorite type of video games are shooters like Call of Duty and Battlefield. Feel free to add me, my gamer tag is Epyon1234.</p>
+
+
+        <div class="row">
+            <div class="col-md-4 text-center">
+                <div class="thumbnail">
+                    <h3>M14<br></h3>
+                    <p class="smalltitle text-center">Basketball Instructor</p>
+
+                    <p>For a year and a half I worked as a basketball trainer at a company called M14. While here I was responsible for over seeing basketball training sessions as well as assisting in administrative and bussiness aspects of the M14 Hoops Academy.</p>
                 </div>
+            </div>
+            <div class="col-md-4 text-center">
+                <div class="thumbnail">
+                    <h3>Solvy7<br></h3>
+                    <p class="smalltitle text-center">Sr. Account Executive</p>
 
-                <div class="col-md-6">
-                    <img class="img-responsive photoBorder center" src="images/Senior%20Picture%20.jpg" alt="Alex Edmondson dribbling a basketball">
+                    <p> My career at Solvy7 was my first sales experience. I was trained in the psychology of sales in a competitive retail market and was able to effectively give presentations and complete successful sales for DirecTV. While working I was also responsible for conducting second round interviews as well as training new employees.</p>
                 </div>
-
+            </div>
+            <div class="col-md-4 text-center">
+                <div class="thumbnail">
+                    <h3>TEKsystems<br></h3>
+                    <p class="smalltitle text-center">Application Development Recruiter</p>
+                    <p> As an Application Development Recruiter at TEKsystems, I was responsible for building consultant relationships, understanding the local employment market in the Milwaukee area and consulting with technical candidates to help them advance their long-term careers.</p>
+                </div>
             </div>
         </div>
 
 
 
 
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="page-header">Hobbies</h2>
+            </div>
+        </div>
 
-        <footer class="text-center">
-            <p> |&nbsp;Follow me on Twitter <a href="https://twitter.com/Epyon1234" title="Follow me on Twitter" target="_blank">@Epyon1234</a>| Connect with me on LinkedIn <a href="https://www.linkedin.com/in/alex-edmondson-38408b97" title="Connect with me on LinkedIn" target="_blank">Alex Edmondson </a>| Follow me on Instagram <a href="https://www.instagram.com/chocolateface20/" title="Follow me on Instagram" target="_blank">@Chocolateface20 </a>|</p>  
-        </footer>
+        <div class="row">
+            <div class="col-md-6 col-lg-6">
+                <h4>Basketball</h4>
+                <p>I've been playing sports all my life but have always loved to play basketball. I started playing when I was six years old and was really trying to follow in my Dad's footsteps. My Dad played college basketball at Northern Illinois University and recieved a full athletic scholorship to play there. Although I did not recieve a scholorship, I decided to play basketball in college at Benedictine University.</p>
+
+                <p>These days I still play basketball every chance I can. Whether thats at the park, in an open gym, or in a league, I love to get out on the court and get a good run in.</p>
+
+                <h4>Video Games</h4>
+                <p>If i'm not playing basketball then you can find me sitting close to the TV playing video games. Ever since a child when my Dad let me play his Sega I have loved playing video games. These days I play on a Playstation and play every type of game besides sports games. My favorite type of video games are shooters like Call of Duty and Battlefield. Feel free to add me, my gamer tag is Epyon1234.</p>
+            </div>
+
+            <div class="col-md-6">
+                <img class="img-responsive photoBorder center" src="images/Senior%20Picture%20.jpg" alt="Alex Edmondson dribbling a basketball">
+            </div>
+
+        </div>
+    </div>
 
 
 
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
 
-        </script>
-    </body>
+
+    <footer class="text-center">
+        <p> |&nbsp;Follow me on Twitter <a href="https://twitter.com/Epyon1234" title="Follow me on Twitter" target="_blank">@Epyon1234</a>| Connect with me on LinkedIn <a href="https://www.linkedin.com/in/alex-edmondson-38408b97" title="Connect with me on LinkedIn" target="_blank">Alex Edmondson </a>| Follow me on Instagram <a href="https://www.instagram.com/chocolateface20/" title="Follow me on Instagram" target="_blank">@Chocolateface20 </a>|</p>  
+    </footer>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    </script>
+</body>
 </html>
